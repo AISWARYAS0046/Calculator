@@ -1,0 +1,56 @@
+.calculator {
+  max-width: 400px;
+  margin: auto;
+  padding: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+body{
+  background: url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.display {
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.input {
+  font-size: 1.5em;
+}
+
+.result {
+  font-size: 1.2em;
+  color: #777;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #34bcdb;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
